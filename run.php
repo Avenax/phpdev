@@ -8,7 +8,6 @@ if (filter_has_var(INPUT_POST, 'recordToDelete')) {
     /**
      * Или как нужно было
      * SmsSender::createNew($_REQUEST['text']);
-    }
      */
 } else if (filter_has_var(INPUT_POST, 'show')) {
 
